@@ -12,7 +12,7 @@ const Footer = () => {
 
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#abput">About</a>
@@ -36,21 +36,15 @@ const Footer = () => {
 
       <div className="footer_socials">
         <a
-          href="https://www.facebook.com/profile.php?id=100087141513617&mibextid=ZbWKwL"
-          target="_blank"
-        >
+          href="https://www.facebook.com/profile.php?id=100087141513617&mibextid=ZbWKwL">
           <FaFacebookF />
         </a>
         <a
-          href="https://twitter.com/Pratik_Dhere_1?t=QIkIWuoi54vIrsOfAJIilw&s=09"
-          target="_blank"
-        >
+          href="https://twitter.com/Pratik_Dhere_1?t=QIkIWuoi54vIrsOfAJIilw&s=09">
           <IoLogoTwitter />
         </a>
         <a
-          href="https://instagram.com/pratik_dhere_patil?utm_source=qr&igshid=OGU0MmVlOWVjOQ=="
-          target="_blank"
-        >
+          href="https://instagram.com/pratik_dhere_patil?utm_source=qr&igshid=OGU0MmVlOWVjOQ==">
           <FiInstagram />
         </a>
       </div>
