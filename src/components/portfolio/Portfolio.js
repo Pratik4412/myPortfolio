@@ -6,6 +6,9 @@ import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
+import Certify from "../surtificates/Certify";
+
+
 
 const data = [
   {
@@ -14,7 +17,7 @@ const data = [
     title: "This is a portfolio item title",
     github: "https://github.com/Pratik4412",
     demo: "https://bright-centaur-a69652.netlify.app"
-  },
+  },  
   {
     id: 2,
     image: IMG2,
@@ -51,8 +54,10 @@ const data = [
     demo: "https://wonderful-madeleine-3a40b1.netlify.app"
   },
 ];
-const Portfolio = () => {
+const Portfolio = () =>{
+  
   return (
+    <>
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
@@ -61,7 +66,7 @@ const Portfolio = () => {
 
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <>
+          <>
           <article key={id} className="portfolio_item">
             <div className="portfolio_item-image">
               <img src={image} alt={title} />
@@ -77,8 +82,14 @@ const Portfolio = () => {
         })
         }
       </div>
+      <Certify/>
     </section>
+    
+    </>
+    
   );
 };
+
+
 
 export default Portfolio;

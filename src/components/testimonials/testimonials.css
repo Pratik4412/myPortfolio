@@ -45,6 +45,9 @@
         width: var(--container-width-sm);
 
     }
+    .testimonial{
+        padding: 0px;
+    }
     .client_review{
         width: var(--container-width-sm);
     }
